@@ -1,0 +1,260 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.topBanner{
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48); 
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+}
+
+
+nav{
+    padding: 0px 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    height: 75px;
+}
+
+.logInButton{
+    float: right;
+    margin: 4px 0px;
+    color: white;
+    padding: 23px 0px 17px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: none;
+    display: block;
+    border: none;
+    font-weight: 600;
+}
+
+
+.logInButton:hover {
+    opacity: .6;
+}
+
+.titleStuff {
+    padding: 40px;
+}
+
+.plsTry{
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    font-weight: 800;
+}
+
+.tagline {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+    color: white;
+    font-weight: 800;
+}
+
+.finePrinted{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px, 191px, 0px;
+}
+
+.freeTrial{
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    height: 46px;
+    padding: 0px 32px;
+    border-radius: 4px;
+}
+.freeTrial:hover{
+    opacity: .8;
+}
+
+
+.superFinePrint{
+    margin-top: 16px;
+    opacity: 0.6;
+    font-size: 10px;
+    line-height: 16px;
+    color: white;
+}
+
+.ribbon{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+}
+
+a, a:visited{
+    color: white;
+}
+
+.linky{
+    opacity: 0.7;
+}
+
+.logos{
+    padding: 40px;
+}
+
+.logosImg{
+width: 100%
+}
+
+.bundlez{
+    text-align: left;
+    grid-column: 2/4;
+    width: 610px;
+}
+
+.getTogether {
+    color: white;
+    font-size: 24px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.getIt{
+    padding-right: 48px;
+    grid-column: 4;
+    text-align: center;
+    font-size: 10px;
+    line-height: 24px;
+    color: white;
+}
+
+.moreInfo{
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.getButton{
+    background: transparent;
+    color: white;
+    height: 56px;
+    width: 165px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+#plansBar {
+    height: 215px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+
+.bigImage{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pbheader {
+    width: 375px;
+    border-bottom: 1px #EDEFF2;
+    padding: 62px 0px 10px;
+}
+
+.selectUR{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.noHidden{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.justHulu {
+    text-align: center;
+    width: 175px;
+    border-bottom: 1px #EDEFF2;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-top: 45px;
+}
+
+.huluEyebrow{
+    align-self: center;
+    font-size: 11px;
+    background: #67728A;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    padding: 7px 0px 5px;
+    width: 130px;
+    margin: 0px;
+}
+
+.noAds {
+    text-align: center;
+    background-color: #F7F8FA;
+    width: 175px;
+    border-bottom: 1px #EDEFF2;
+    padding-top: 70px;
+}
+
+.plusTV {
+    text-align: center;
+    width: 175px;
+    border-bottom: 1px #EDEFF2;
+    padding-top: 70px;
+}
+
+h4 {
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.trialText{
+    color: #888888;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.tryButton {
+    font-size: 14px;
+    height: 48px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0px 38px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.tryButton:hover {
+    opacity: .75;
+}
